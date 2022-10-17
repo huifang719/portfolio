@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('./components/images/background.gif');
+  height: 100%;
+}
+
+footer {
+  justify-content: center;
+}
