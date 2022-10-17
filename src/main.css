@@ -8,5 +8,10 @@ body {
 }
 
 footer {
+  position: fixed;
+  left: 40%;
+  bottom: 0;
+  width: 100%;
+  color: white;
   justify-content: center;
 }

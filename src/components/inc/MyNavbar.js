@@ -7,8 +7,8 @@ import { IconContext } from 'react-icons'
 function MyNavbar() {
   return (
     <IconContext.Provider value={{color:"lightgrey"}}>
-      <Navbar variant="dark" expand="lg" style={{height:"5rem"}}>
-        <Container fluid>
+      <Navbar variant="dark" expand="lg">
+        <Container fluid style={{height:"5rem"}}>
           <Navbar.Brand href="../pages/home">Huifang GU</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
