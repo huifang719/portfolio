@@ -9,6 +9,7 @@ function App() {
         <MyNavbar />
       </header>
       <main>
+        {/* use react Router  */}
         <Home />
       </main>
       <footer>
