@@ -10,7 +10,7 @@ function MyNavbar() {
     <IconContext.Provider value={{color:"lightgrey"}}>
       <Navbar variant="dark" expand="lg">
         <Container fluid style={{height:"5rem"}}>
-          <Navbar.Brand href="../pages/home"><img src={brand} style={{height:"70px", width:"auto"}} alt="" /></Navbar.Brand>
+          <Navbar.Brand href="../pages/home"><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end" style={{ width: "90%" }}>

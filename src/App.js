@@ -2,6 +2,7 @@ import './main.css';
 import MyNavbar from './components/inc/MyNavbar';
 import MyFooter from './components/inc/MyFooter';
 import Home from './components/pages/Home';
+import Projects from './components/pages/projects';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,7 @@ function App() {
       </header>
       <main>
         {/* use react Router  */}
-        <Home />
+        <Projects />
       </main>
       <footer>
         <MyFooter />
