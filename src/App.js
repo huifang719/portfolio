@@ -6,8 +6,7 @@ import Projects from './components/projects';
 import About from './components/about';
 import Skills from './components/skills';
 import Contact from './components/contact';
-import { Routes, Route } from 'react-router-dom'
-
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
