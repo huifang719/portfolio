@@ -1,8 +1,16 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
-    <div></div>
+    <Typewriter
+  options={{
+    strings: ['Hello, Welcome to my site', 
+              "I'm Livia Gu",
+              "I am a web developer"],
+    autoStart: true,
+    loop: true,
+  }}
+/>
   );
 }
 
