@@ -1,7 +1,6 @@
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import { FaGithubSquare, FaLinkedin, FaHome, FaEnvelope, FaFileAlt } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
-
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
   
