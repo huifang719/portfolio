@@ -5,13 +5,21 @@ import { FaHome, FaUserAlt, FaCode, FaEnvelope, FaLaptop } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 import brand from '../images/brand.png'
 import { Link } from 'react-router-dom'
+import { motion } from "framer-motion"
+
 
 function MyNavbar() {
   return (
     <IconContext.Provider value={{color:"lightgrey"}}>
       <Navbar variant="dark" expand="lg">
         <Container fluid >
-          <Navbar.Brand as={Link} to="/"><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+            <motion.div
+                animate={{rotate: [0,360,360,0],x:[0,150,150,0]}}
+                transition={{duration:2, repeat:Infinity}}
+
+            
+          ><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></motion.div></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end" style={{ width: "90%" }}>
