@@ -11,11 +11,11 @@ function MyNavbar() {
     <IconContext.Provider value={{color:"lightgrey"}}>
       <Navbar variant="dark" expand="lg">
         <Container fluid >
-          <Navbar.Brand as={Link} to="../home"><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end" style={{ width: "90%" }}>
-              <Nav.Link as={Link} to ="../home"><FaHome /> Home</Nav.Link>
+              <Nav.Link as={Link} to ="/"><FaHome /> Home</Nav.Link>
               <Nav.Link as={Link} to="../about"><FaUserAlt /> About Me</Nav.Link>
               <Nav.Link as={Link} to="../skills"><FaCode /> My Skills</Nav.Link>
               <Nav.Link as={Link} to="../projects"><FaLaptop /> My Projects</Nav.Link>

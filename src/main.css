@@ -3,15 +3,19 @@
 }
 
 body {
-  background-image: url('./components/images/background.gif');
-  height: 100%;
+  background-image: url('./components/images/background.jpg');
+  margin-bottom: -2rem;
+}
+
+main {
+  margin-bottom: 1.5rem;
+  min-height: 72vh;
 }
 
 footer {
-  position: fixed;
-  left: 40%;
-  bottom: 0;
-  width: 100%;
+  /* position: fixed; */
+  /* bottom: -0.5rem; */
+  width: 90%;
   color: white;
   justify-content: center;
 }
