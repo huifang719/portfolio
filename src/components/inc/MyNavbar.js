@@ -15,11 +15,11 @@ function MyNavbar() {
         <Container fluid >
           <Navbar.Brand as={Link} to="/">
             <motion.div
-                animate={{rotate: [0,360,360,0],x:[0,150,150,0]}}
-                transition={{duration:2, repeat:Infinity}}
-
-            
-          ><img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" /></motion.div></Navbar.Brand>
+              animate={{rotate: [0,360,360,0],x:[0,250,250,0]}}
+              transition={{duration:2, repeat:Infinity}}>
+                <img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" />
+            </motion.div>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end" style={{ width: "90%" }}>
