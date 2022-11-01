@@ -36,8 +36,13 @@ function Home() {
           />
         </Col>
         <Col>
+          <motion.div
+            initial={{scale: 0}}
+            animate={{scale: 1}}
+            transition={{duration:1, bounce:""}}>
           <Image className='fluid' style={{width:"70%", margin:"0,auto"}} src={profile}>
           </Image>
+          </motion.div>
         </Col>
       </Row>
     </motion.div>

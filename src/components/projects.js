@@ -2,6 +2,9 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { motion } from "framer-motion"
+import  jobtracker from "./images/jobtracker.png"
+import  findYourBaker  from "./images/findYourBaker.png"
+import phhotoguru from "./images/photoguru.png"
 function Projects() {
 
   return (
@@ -11,8 +14,8 @@ function Projects() {
       exit={{opacity:0}}>
       <Row xs={1} md={2} className="g-4 mx-2">
         <Col>
-          <Card style={{ width: '100%' }}>
-            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src="https://user-images.githubusercontent.com/112321294/198415697-245053f1-46ff-49c0-9164-2b148a4e655c.png" 
+          <Card style={{ maxwidth: '380px', width: "100%" }}>
+            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src={jobtracker} 
             />
             <Card.Body>
               <Card.Title>Job Tracker</Card.Title>
@@ -22,8 +25,8 @@ function Projects() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '100%' }}>
-            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src="https://user-images.githubusercontent.com/112321294/198415697-245053f1-46ff-49c0-9164-2b148a4e655c.png" />
+          <Card style={{ maxwidth: '380px', width: "100%" }}>
+            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src={findYourBaker} />
             <Card.Body>
               <Card.Title>Find Your Baker</Card.Title>
               <Card.Link href="https://github.com/huifang719/find_your_baker">See code</Card.Link>
@@ -32,17 +35,17 @@ function Projects() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '100%' }}>
-            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src="https://user-images.githubusercontent.com/112321294/198415697-245053f1-46ff-49c0-9164-2b148a4e655c.png" />
+          <Card style={{ maxwidth: '380px', width: "100%" }}>
+            <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src={phhotoguru} />
             <Card.Body>
-              <Card.Title>Find Your Baker</Card.Title>
+              <Card.Title>PhotoGuru</Card.Title>
               <Card.Link href="https://github.com/huifang719/PhotoGuru">See code</Card.Link>
               <Card.Link href="https://arcane-oasis-62521.herokuapp.com/">Demo</Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '100%' }}>
+          <Card style={{ maxwidth: '380px', width: "100%" }}>
             <Card.Img variant="top" style={{marginTop:"0", width:"100%", height:"160px"}} src="https://user-images.githubusercontent.com/112321294/198415697-245053f1-46ff-49c0-9164-2b148a4e655c.png" />
             <Card.Body>
               <Card.Title>Tic Tac Tac</Card.Title>

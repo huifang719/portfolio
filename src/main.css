@@ -13,8 +13,8 @@ main {
 }
 
 footer {
-  /* position: fixed; */
-  /* bottom: -0.5rem; */
+  /* position: relative; */
+  bottom: -0.5rem;
   width: 90%;
   color: white;
   justify-content: center;
