@@ -4,18 +4,18 @@
 
 body {
   background-image: url('./components/images/background.jpg');
-  margin-bottom: -2rem;
+  margin-bottom: -5rem;
 }
 
 main {
-  margin-bottom: 1.5rem;
-  min-height: 72vh;
+  margin-bottom: 3rem;
+  max-height: 80vh;
 }
 
 footer {
-  /* position: relative; */
+  position: fixed;
   bottom: -0.5rem;
   width: 90%;
   color: white;
-  justify-content: center;
+  margin-top: 2rem;
 }

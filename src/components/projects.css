@@ -1,0 +1,26 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(12,4,62);
+  text-align: center;
+}
+.projectImage:hover .overlay {
+  opacity: 1;
+}
+
+.projectLink {
+  color: lightgray;
+  text-decoration: none;
+  scale:1;
+}
+
+.projectLink:hover {
+  scale: 1.2;
+}

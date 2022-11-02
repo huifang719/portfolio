@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
   
   function MyFooter (){
   return(
-    <Container fluid className='d-flex text-center'>
+    <Container fluid className='d-flex justify-content-center mt-2 mb-2'>
       <IconContext.Provider value={{size:"2rem", color:"lightgrey"}}>
         <Breadcrumb>
           <OverlayTrigger
