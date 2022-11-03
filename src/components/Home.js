@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image'
 import profile from './images/profile.png'
@@ -10,9 +9,9 @@ function Home() {
   return (
     <Container style={{maxHeight: "72vh"}} className='mx-auto'>
       <motion.div className='w-6 mx-auto d-flex justify-content-center'
-        initial={{scale: 0}}
-        animate={{scale: 0.8}}
-        whileHover={{scale:1}}
+        initial={{scale: 0, opacity: 0}}
+        animate={{scale: 0.8, opacity: 1}}
+        whileHover={{scale: 1}}
         transition={{type:"spring", bounce:"0.8"}}>
           <Image className='fluid' style={{width:"30%", margin:"0,auto"}} src={profile}>
           </Image>

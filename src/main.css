@@ -13,9 +13,9 @@ main {
 }
 
 footer {
-  position: fixed;
-  bottom: -0.5rem;
+  /* position: fixed; */
+  /* bottom: -0.5rem; */
   width: 90%;
   color: white;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }

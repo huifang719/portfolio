@@ -33,7 +33,7 @@ function Skills() {
       }
     },
     hover: {
-      rotate:[0,240,120,360],
+      scale:1.4,
       opacity:1,
       transition: {
         type:"spring",
@@ -52,7 +52,7 @@ function Skills() {
           animate='visible'
           whileHover="hover">
         </motion.img>  
-        <motion.img src={python} id="python" style={{width:"10%"}}
+        <motion.img src={python} id="python" style={{width:"15%"}}
           variants={skillsVariants}
           initial="hidden"
           animate="visible"
@@ -112,7 +112,7 @@ function Skills() {
           animate="visible"
           whileHover="hover">          
         </motion.img>
-        <motion.img src={illustrator} id="illustrator" style={{width:"10%"}}
+        <motion.img src={illustrator} id="illustrator" style={{width:"15%"}}
           variants={skillsVariants}
           initial="hidden"
           animate="visible"
