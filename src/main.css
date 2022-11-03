@@ -19,3 +19,38 @@ footer {
   color: white;
   margin-top: 3rem;
 }
+
+.info {
+  height: 70vh;
+  width: auto;
+  text-align: center;
+}
+
+.info-img{
+  display: inline-block;
+  height: 100%;
+  width: auto;
+}
+
+.profile-img {
+  width: 30%;
+  margin: 0, auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .info {
+    width: 90vw;
+    height: auto;
+    text-align: center;
+  }
+  .info-img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  .profile-img {
+    width: 60%;
+    margin: 0, auto;
+  }
+  
+}

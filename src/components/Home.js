@@ -4,16 +4,17 @@ import Image from 'react-bootstrap/Image'
 import profile from './images/profile.png'
 import { motion } from "framer-motion"
 import { Container, Card } from 'react-bootstrap';
+import '../main.css'
 
 function Home() {
   return (
-    <Container style={{maxHeight: "72vh"}} className='mx-auto mb-5'>
+    <Container style={{maxHeight: "72vh"}} className='mx-auto mb-3'>
       <motion.div className='w-6 mx-auto d-flex justify-content-center'
         initial={{scale: 0, opacity: 0}}
         animate={{scale: 0.8, opacity: 1}}
         whileHover={{scale: 1}}
         transition={{type:"spring", bounce:"0.8"}}>
-          <Image className='fluid' style={{width:"30%", margin:"0,auto"}} src={profile}>
+          <Image className='fluid profile-img' src={profile}>
           </Image>
       </motion.div>
       <Row className='w-8 mx-auto d-flex text-center mt-1 mb-2' style={{color:"lightgrey", fontSize:"1.5rem"}}>

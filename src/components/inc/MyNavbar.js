@@ -27,7 +27,7 @@ function MyNavbar() {
               <Nav.Link as={Link} to="../about"><FaUserAlt /> About Me</Nav.Link>
               <Nav.Link as={Link} to="../skills"><FaCode /> My Skills</Nav.Link>
               <Nav.Link as={Link} to="../projects"><FaLaptop /> My Projects</Nav.Link>
-              <Nav.Link as={Link} to="../contact"><FaEnvelope />Contact Me</Nav.Link>
+              <Nav.Link as={Link} to="../contact"><FaEnvelope /> Contact Me</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

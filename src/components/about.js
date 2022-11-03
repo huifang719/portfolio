@@ -3,28 +3,29 @@ import Carousel from 'react-bootstrap/Carousel';
 import whoami from "./images/1.jpg"
 import liviagu from "./images/2.jpg"
 import core from "./images/3.jpg"
+import "../main.css"
 
 function About() {
   return (
     <Container>
       <Carousel>
-      <Carousel.Item style={{height:"70vh", textAlign:"center"}}>
-        <img
-          className="d-inline-block h-100 w-auto"
+      <Carousel.Item className="info">
+        <img 
+          className="info-img"
           src={whoami}
           alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item style={{height:"70vh", textAlign:"center"}}>
+      <Carousel.Item className="info">
         <img
-          className="d-inline-block h-100 w-auto"
+          className="info-img"
           src={liviagu}
           alt="Second slide"
         />
       </Carousel.Item>
-      <Carousel.Item style={{height:"70vh", textAlign:"center"}}>
+      <Carousel.Item className="info">
         <img
-          className="d-inline-block h-100 w-auto"
+          className="info-img"
           src={core}
           alt="Third slide"
         />

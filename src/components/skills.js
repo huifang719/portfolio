@@ -29,7 +29,7 @@ function Skills() {
       transition: {
         delay:0.2,
         type:"spring",
-        duration:8
+        duration:6
       }
     },
     hover: {
