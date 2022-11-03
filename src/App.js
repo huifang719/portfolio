@@ -6,13 +6,11 @@ import RouteAnimation from './components/RouteAnimation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
+    <div className="page-container">
+      <div className='content-wrap'>
         <MyNavbar />
-      </header>
-      <main>
         <RouteAnimation />
-      </main>
+      </div>
       <footer>
         <MyFooter />
       </footer>
