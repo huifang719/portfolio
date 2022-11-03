@@ -1,0 +1,52 @@
+#js {
+  position: relative;
+  left: 8rem;
+  top:1rem;
+}
+
+#html {
+  position: relative;
+  top:12rem;
+  left: 2rem;
+}
+
+#psql {
+  position: relative;
+  right: 15rem;
+  top: 11rem;
+}
+
+#css {
+  position: relative;
+  top: 5rem;
+  left: 3rem;
+}
+
+#ruby {
+  position: relative;
+  right: 6rem;
+}
+
+#python {
+  position: relative;
+  top: 18rem;
+  left:1rem;
+}
+
+#react {
+  position: relative;
+  left: 16rem;
+  top:8rem
+}
+
+#ps {
+  position: relative;
+  left: 15rem;
+  top:9rem
+}
+
+#illustrator {
+  position: relative;
+  left:4rem;
+  top:2rem;
+}
