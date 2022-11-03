@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { motion } from "framer-motion"
 import  jobtracker from "./images/jobtracker.png"
 import  findYourBaker  from "./images/findYourBaker.png"
 import photoguru from "./images/photoguru.png"

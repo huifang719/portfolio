@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { motion } from "framer-motion"
 import { Container } from 'react-bootstrap';
 
 function Contact() {
