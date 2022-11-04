@@ -52,5 +52,7 @@ footer {
     width: 60%;
     margin: 0, auto;
   }
-  
+  .brand {
+    margin-left: 0;
+  }
 }

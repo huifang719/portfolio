@@ -6,11 +6,13 @@ import  findYourBaker  from "./images/findYourBaker.png"
 import photoguru from "./images/photoguru.png"
 import tictactoe from "./images/tictactoe.png"
 import "./projects.css"
+import { Container } from 'react-bootstrap';
 function Projects() {
   return (
-    <Row xs={1} md={2} className="g-4 mx-2">
-      <Col>
-        <Card style={{ maxwidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
+    <Container>
+    <Row xs={1} md={2} className="g-4 mx-2 justify-content-center" >
+      <Col style={{display:"inline-block"}}>
+        <Card style={{ maxWidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
           <Card.Img variant="top" className='projectImage' style={{marginTop:"0", width:"100%", height:"160px"}} src={jobtracker} 
           />
           <Card.Body>
@@ -20,8 +22,8 @@ function Projects() {
             </Card.Body>
         </Card>
       </Col>
-      <Col>
-        <Card style={{ maxwidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
+      <Col style={{display:"inline-block"}}>
+        <Card style={{ maxWidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
           <Card.Img variant="top" className='projectImage' style={{marginTop:"0", width:"100%", height:"160px"}} src={findYourBaker} />
           <Card.Body>
             <Card.Title>Find Your Baker</Card.Title>
@@ -30,8 +32,8 @@ function Projects() {
           </Card.Body>
         </Card>
       </Col>
-      <Col>
-        <Card style={{ maxwidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
+      <Col style={{display:"inline-block"}}>
+        <Card style={{ maxWidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
           <Card.Img variant="top" className='projectImage' style={{marginTop:"0", width:"100%", height:"160px"}} src={photoguru} />
           <Card.Body>
             <Card.Title>PhotoGuru</Card.Title>
@@ -40,8 +42,8 @@ function Projects() {
           </Card.Body>
         </Card>
       </Col>
-      <Col>
-        <Card style={{ maxwidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
+      <Col style={{display:"inline-block"}}>
+        <Card style={{ maxWidth: '380px', width: "100%", backgroundColor:"rgb(12,12,100)", color: "lightgray" }}>
           <Card.Img variant="top" className='projectImage'style={{marginTop:"0", width:"100%", height:"160px"}} src={tictactoe} />
           <Card.Body>
             <Card.Title>Tic Tac Tac</Card.Title>
@@ -51,6 +53,7 @@ function Projects() {
         </Card>
       </Col>
     </Row>
+    </Container>
   );
 }
 

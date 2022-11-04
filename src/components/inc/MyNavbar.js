@@ -13,9 +13,9 @@ function MyNavbar() {
     <IconContext.Provider value={{color:"lightgrey"}}>
       <Navbar variant="dark" expand="lg">
         <Container fluid >
-          <Navbar.Brand className='md-ms-4 lg-ms-6' as={Link} to="/">
+          <Navbar.Brand className='sm-ms-0 md-ms-4 lg-ms-6' as={Link} to="/">
             <motion.div
-              animate={{rotate: [0,360,360,0],x:[0,200,200,0]}}
+              animate={{rotate: [0,360,360,0],x:[0,180,180,0]}}
               transition={{duration:2, repeat:Infinity}}>
                 <img src={brand} style={{height:"70px", width:"auto", marginLeft:"1rem"}} alt="" />
             </motion.div>
