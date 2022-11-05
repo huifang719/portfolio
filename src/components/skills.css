@@ -1,7 +1,7 @@
 #js {
   position: relative;
   left: 10rem;
-  top:1rem;
+  top:3rem;
 }
 
 #html {
@@ -24,7 +24,8 @@
 
 #ruby {
   position: relative;
-  right: 6rem;
+  right: 7rem;
+  top:1rem
 }
 
 #python {
@@ -42,11 +43,45 @@
 #ps {
   position: relative;
   left: 15rem;
-  top:9rem
+  top:11rem
 }
 
 #illustrator {
   position: relative;
-  left:4rem;
+  left:7rem;
   top:2rem;
+}
+
+#fm {
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+}
+
+#express {
+  position: relative;
+  top: 12rem;
+  right:4rem;
+}
+
+#pr {
+  position: relative;
+  top: 14rem; 
+  right: 9rem;
+}
+
+#jest {
+  position: relative;
+  top: 18rem;
+  right: 2rem;
+}
+
+#nodejs {
+  position: relative;
+  top: 4rem;
+}
+
+#bootstrap {
+  position: relative;
+  right:2rem
 }
