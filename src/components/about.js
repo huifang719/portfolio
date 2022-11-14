@@ -40,6 +40,7 @@ function About() {
             className="video-profile"
             style={{display:"flex", margin:"1rem, auto"}}
             url="https://youtu.be/4jQbpJGdpY8"
+            controls
             config={{
               youtube: {
                 playerVars: { showinfo: 1 }
