@@ -47,8 +47,8 @@ function Projects() {
           <Card.Img variant="top" className='projectImage'style={{marginTop:"0", width:"100%", height:"160px"}} src={tictactoe} />
           <Card.Body>
             <Card.Title>Tic Tac Tac</Card.Title>
-            <Card.Link className='projectLink' href="https://github.com/huifang719/PhotoGuru">See code</Card.Link>
-            <Card.Link className='projectLink' href="https://arcane-oasis-62521.herokuapp.com/">Demo</Card.Link>
+            <Card.Link className='projectLink' href="https://github.com/huifang719/react_tictactoe.git">See code</Card.Link>
+            <Card.Link className='projectLink' href="https://tic-tac-toe-got.netlify.app/">Demo</Card.Link>
           </Card.Body>
         </Card>
       </Col>
