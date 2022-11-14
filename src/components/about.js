@@ -37,9 +37,8 @@ function About() {
       </Row>
         <Row className="justify-content-center mt-4">
           <ReactPlayer
+            className="video-profile"
             style={{display:"flex", margin:"1rem, auto"}}
-            width="100%"
-            height="100%"
             url="https://youtu.be/4jQbpJGdpY8"
             config={{
               youtube: {

@@ -39,6 +39,11 @@ footer {
   margin: 0, auto;
 }
 
+.video-profile {
+  width: 640px;
+  height: 360px;
+}
+
 @media only screen and (max-width: 576px) {
   .info {
     width: 90vw;
@@ -56,5 +61,10 @@ footer {
   }
   .brand {
     margin-left: 0;
+  }
+
+  .video-profile {
+    width: 320px;
+    height: 180px;
   }
 }
