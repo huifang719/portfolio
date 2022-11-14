@@ -35,9 +35,9 @@ function About() {
           </Carousel.Item>
         </Carousel>
       </Row>
-        <Row fluid className="justify-content-center mt-4">
+        <Row className="justify-content-center mt-4">
           <ReactPlayer
-            style={{width:"100%", height:"auto",display:"flex", margin:"1rem, auto"}}
+            style={{width:"100%",display:"flex", margin:"1rem, auto"}}
             url="https://youtu.be/4jQbpJGdpY8"
             config={{
               youtube: {
