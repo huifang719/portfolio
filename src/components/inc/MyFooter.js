@@ -18,7 +18,7 @@ import { Container } from 'react-bootstrap';
               </Tooltip>
             }
           >
-            <Breadcrumb.Item href="../pages/home">
+            <Breadcrumb.Item href="/">
               <FaHome />
             </Breadcrumb.Item>
           </OverlayTrigger>
@@ -54,7 +54,7 @@ import { Container } from 'react-bootstrap';
               </Tooltip>
             }
             >
-            <Breadcrumb.Item href='../pages/contact'>
+            <Breadcrumb.Item href='../contact'>
               <FaEnvelope />
             </Breadcrumb.Item>
           </OverlayTrigger> 
