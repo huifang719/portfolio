@@ -1,87 +1,88 @@
 #js {
   position: relative;
-  left: 10rem;
+  left: 12rem;
   top:3rem;
 }
 
 #html {
   position: relative;
-  top:12rem;
+  top:14rem;
   left: 2rem;
 }
 
 #psql {
   position: relative;
-  right: 15rem;
+  right: 17rem;
   top: 11rem;
 }
 
 #css {
   position: relative;
-  top: 5rem;
+  top: 7rem;
   left: 3rem;
 }
 
 #ruby {
   position: relative;
   right: 7rem;
-  top:1rem
+  top:3rem
 }
 
 #python {
   position: relative;
-  top: 18rem;
+  top: 20rem;
   left:1rem;
 }
 
 #react {
   position: relative;
-  left: 18rem;
-  top:8rem
+  left: 17rem;
+  top:10rem
 }
 
 #ps {
   position: relative;
-  left: 15rem;
+  left: 17rem;
   top:11rem
 }
 
 #illustrator {
   position: relative;
-  left:7rem;
+  left:9rem;
   top:2rem;
 }
 
 #fm {
   position: relative;
-  top: 10rem;
+  top: 12rem;
   left: 2rem;
 }
 
 #express {
   position: relative;
-  top: 12rem;
+  top: 14rem;
   right:4rem;
 }
 
 #pr {
   position: relative;
-  top: 14rem; 
+  top: 16rem; 
   right: 9rem;
 }
 
 #jest {
   position: relative;
-  top: 18rem;
+  top: 20rem;
   right: 2rem;
 }
 
 #nodejs {
   position: relative;
-  top: 4rem;
+  top: 6rem;
 }
 
 #bootstrap {
   position: relative;
+  top: 2rem;
   right:2rem
 }

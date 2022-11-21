@@ -49,7 +49,7 @@ function Skills() {
   }
 
   return(
-    <Container>
+    <Container className="mt-4">
       <Row xs={1} md={3}>
         <Col style={{border:"1px solid lightgrey", height:"70vh",color:"lightgrey"}}>
           <h3 className="text-center">Languages</h3>
