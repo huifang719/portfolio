@@ -2,9 +2,10 @@ import { Container, Row } from "react-bootstrap"
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react'
 import ReactPlayer from 'react-player'
-import whoami from "./images/1.jpg"
-import liviagu from "./images/2.jpg"
-import core from "./images/3.jpg"
+import whoAmI from "./images/1.png"
+import liviaGu from "./images/2.png"
+import core from "./images/3.png"
+import lookForRole from "./images/4.png"
 import "../main.css"
 
 function About() {
@@ -15,14 +16,14 @@ function About() {
           <Carousel.Item className="info">
             <img 
               className="info-img"
-              src={whoami}
+              src={whoAmI}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item className="info">
             <img
               className="info-img"
-              src={liviagu}
+              src={liviaGu}
               alt="Second slide"
             />
           </Carousel.Item>
@@ -31,6 +32,13 @@ function About() {
               className="info-img"
               src={core}
               alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item className="info">
+            <img
+              className="info-img"
+              src={lookForRole}
+              alt="Four slide"
             />
           </Carousel.Item>
         </Carousel>
