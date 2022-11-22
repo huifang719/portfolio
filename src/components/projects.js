@@ -7,7 +7,6 @@ import photoguru from "./images/photoguru.png"
 import tictactoe from "./images/tictactoe.png"
 import "./projects.css"
 import { Container } from 'react-bootstrap';
-import { hover } from '@testing-library/user-event/dist/hover';
 function Projects() {
   return (
     <Container>
