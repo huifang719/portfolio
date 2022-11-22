@@ -13,9 +13,9 @@ function Projects() {
     <Container>
       <Carousel indicators={false}>
         <Carousel.Item>
-          <Card className='w-100'>
+          <Card className='w-100 bg-primary'>
             <Card.Img fluid variant="top" src={jobtracker} />
-            <Card.Body>
+            <Card.Body style={{color:"lightgray"}}>
               <Card.Title>Job Tracker</Card.Title>
               <Card.Text>
                 A RESTful web app where user can login and search for jobs, as well as save jobs, adding important dates to their calender<br />
@@ -32,9 +32,9 @@ function Projects() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <Card className='w-100'>
+          <Card className='w-100  bg-primary'>
             <Card.Img fluid variant="top" src={findYourBaker} />
-            <Card.Body>
+            <Card.Body style={{color:"lightgray"}}>
               <Card.Title>Find Your Baker</Card.Title>
               <Card.Text>
                 A RESTful web app allows bakers to provide/update details and users to search bakers in nearby area as well as rating and reviewing bakers.<br />
@@ -50,9 +50,9 @@ function Projects() {
           </div> 
         </Carousel.Item>
         <Carousel.Item>
-          <Card className='w-100'>
+          <Card className='w-100  bg-primary'>
               <Card.Img fluid variant="top" src={photoguru} />
-              <Card.Body>
+              <Card.Body style={{color:"lightgray"}}>
                 <Card.Title>PhotoGuru</Card.Title>
                 <Card.Text>
                   A CRUD web app built with sinatra to provide a community and learning experience for photographers.<br />
@@ -68,9 +68,9 @@ function Projects() {
             </div>
         </Carousel.Item>
         <Carousel.Item>
-          <Card className='w-100'>
+          <Card className='w-100  bg-primary'>
               <Card.Img fluid variant="top" src={tictactoe} />
-              <Card.Body>
+              <Card.Body style={{color:"lightgray"}}>
                 <Card.Title>Tic Tac Toe</Card.Title>
                 <Card.Text>
                   A classic game but with Game of Thrones theme<br />
