@@ -14,7 +14,7 @@ function Projects() {
       <Carousel indicators={false}>
         <Carousel.Item>
           <Card className='w-100'>
-            <Card.Img variant="top" src={jobtracker} />
+            <Card.Img fluid variant="top" src={jobtracker} />
             <Card.Body>
               <Card.Title>Job Tracker</Card.Title>
               <Card.Text>
@@ -33,7 +33,7 @@ function Projects() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className='w-100'>
-            <Card.Img variant="top" src={findYourBaker} />
+            <Card.Img fluid variant="top" src={findYourBaker} />
             <Card.Body>
               <Card.Title>Find Your Baker</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ function Projects() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className='w-100'>
-              <Card.Img variant="top" src={photoguru} />
+              <Card.Img fluid variant="top" src={photoguru} />
               <Card.Body>
                 <Card.Title>PhotoGuru</Card.Title>
                 <Card.Text>
@@ -69,7 +69,7 @@ function Projects() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className='w-100'>
-              <Card.Img variant="top" src={tictactoe} />
+              <Card.Img fluid variant="top" src={tictactoe} />
               <Card.Body>
                 <Card.Title>Tic Tac Toe</Card.Title>
                 <Card.Text>
