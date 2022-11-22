@@ -75,7 +75,7 @@ function Projects() {
                   A classic game but with Game of Thrones theme<br />
                   -using React, and usestate hook<br />
                   -using React Bootstrap for Styling and React typewriter<br />
-                  -using Game of Throne Quote API <br />
+                  -using Game of Throne Quote API <br /><br />
                 </Card.Text>
               </Card.Body>
             </Card> 
