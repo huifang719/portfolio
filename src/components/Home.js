@@ -8,7 +8,7 @@ import '../main.css'
 
 function Home() {
   return (
-    <Container style={{maxHeight: "72vh"}} className='mx-auto mb-3 mt-lg-5 mt-md-3'>
+    <Container style={{maxHeight: "72vh"}} className='mx-auto mb-3'>
       <motion.div className='w-6 mx-auto d-flex justify-content-center'
         initial={{scale: 0, opacity: 0}}
         animate={{scale: 0.8, opacity: 1}}
