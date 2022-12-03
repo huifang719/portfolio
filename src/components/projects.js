@@ -26,7 +26,7 @@ function Projects() {
             </Card.Body>
           </Card>
           <div className='w-6 d-flex justify-content-center mt-2'>
-            <Button href='https://dry-bayou-44223.herokuapp.com/' className='me-4' variant="primary">Demo</Button>
+            <Button href='https://jobtracker.onrender.com/' className='me-4' variant="primary">Demo</Button>
             <Button href='https://github.com/huifang719/jobtracker_server.git' variant="primary">Code</Button>
           </div>
         </Carousel.Item>
@@ -44,7 +44,7 @@ function Projects() {
             </Card.Body>
           </Card>
           <div className='w-6 d-flex justify-content-center mt-2'>
-            <Button href='https://find-your-baker.herokuapp.com/' className='me-4' variant="primary">Demo</Button>
+            <Button href='https://find-your-baker.onrender.com/' className='me-4' variant="primary">Demo</Button>
             <Button href='https://github.com/huifang719/find_your_baker.git' variant="primary">Code</Button>
           </div> 
         </Carousel.Item>
@@ -62,7 +62,7 @@ function Projects() {
               </Card.Body> 
             </Card> 
             <div className='w-6 d-flex justify-content-center mt-2'>
-              <Button href='https://arcane-oasis-62521.herokuapp.com/' className='me-4' variant="primary">Demo</Button>
+              <Button href='https://photoguru.onrender.com' className='me-4' variant="primary">Demo</Button>
               <Button href='https://github.com/huifang719/PhotoGuru.git' variant="primary">Code</Button>
             </div>
         </Carousel.Item>

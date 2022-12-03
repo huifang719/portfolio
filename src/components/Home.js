@@ -22,7 +22,7 @@ function Home() {
           options={{
             strings: ["I'm Livia Gu, an enthusiastic full stack web developer"],
             autoStart: true,
-            loop: true,
+            loop: false,
           }}
           /> 
       </Row>
