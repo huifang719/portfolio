@@ -42,13 +42,13 @@
 
 #ps {
   position: relative;
-  left: 17rem;
-  top:11rem
+  left: 9rem;
+  top:14rem
 }
 
 #illustrator {
   position: relative;
-  left:9rem;
+  left:11rem;
   top:2rem;
 }
 
@@ -85,4 +85,10 @@
   position: relative;
   top: 2rem;
   right:2rem
+}
+
+#indesign {
+  position: relative;
+  top: 6rem;
+  left:5rem
 }
