@@ -1,14 +1,18 @@
+/* eslint-disable react/jsx-wrap-multilines */
+import React from 'react';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import { FaGithubSquare, FaLinkedin, FaHome, FaEnvelope, FaFileAlt } from 'react-icons/fa'
-import { IconContext } from 'react-icons'
+import {
+  FaGithubSquare, FaLinkedin, FaHome, FaEnvelope, FaFileAlt,
+} from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import { Container } from 'react-bootstrap';
-  
-  function MyFooter (){
-  return(
-    <Container fluid className='d-flex justify-content-center mt-2 mb-2'>
-      <IconContext.Provider value={{size:"2rem", color:"lightgrey"}}>
+
+function MyFooter() {
+  return (
+    <Container fluid className="d-flex justify-content-center mt-2 mb-2">
+      <IconContext.Provider value={{ size: '2rem', color: 'lightgrey' }}>
         <Breadcrumb>
           <OverlayTrigger
             placement="top"
@@ -41,11 +45,11 @@ import { Container } from 'react-bootstrap';
                 LinkedIn
               </Tooltip>
             }
-            >
+          >
             <Breadcrumb.Item href="https://www.linkedin.com/in/liviagu/">
               <FaLinkedin />
             </Breadcrumb.Item>
-          </OverlayTrigger> 
+          </OverlayTrigger>
           <OverlayTrigger
             placement="top"
             overlay={
@@ -53,11 +57,11 @@ import { Container } from 'react-bootstrap';
                 Contact me
               </Tooltip>
             }
-            >
-            <Breadcrumb.Item href='../contact'>
+          >
+            <Breadcrumb.Item href="../contact">
               <FaEnvelope />
             </Breadcrumb.Item>
-          </OverlayTrigger> 
+          </OverlayTrigger>
           <OverlayTrigger
             placement="top"
             overlay={
@@ -65,15 +69,15 @@ import { Container } from 'react-bootstrap';
                 View Resume
               </Tooltip>
             }
-            >
-            <Breadcrumb.Item href='https://www.canva.com/design/DAFOgaQhP7Y/YKes_EC0Eilc5Sal0rJo1A/view?utm_content=DAFOgaQhP7Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' download>
+          >
+            <Breadcrumb.Item href="https://www.canva.com/design/DAFOgaQhP7Y/YKes_EC0Eilc5Sal0rJo1A/view?utm_content=DAFOgaQhP7Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" download>
               <FaFileAlt />
             </Breadcrumb.Item>
-          </OverlayTrigger>   
+          </OverlayTrigger>
         </Breadcrumb>
       </IconContext.Provider>
     </Container>
   );
 }
 
-export default MyFooter
+export default MyFooter;
