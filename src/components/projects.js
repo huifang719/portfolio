@@ -7,12 +7,37 @@ import jobtracker from './images/jobtracker.png';
 import findYourBaker from './images/findYourBaker.png';
 import photoguru from './images/photoguru.png';
 import tictactoe from './images/tictactoe.png';
+import lightstory from './images/lightstory.png';
 import './projects.css';
 
 function Projects() {
   return (
     <Container>
       <Carousel indicators={false}>
+        <Carousel.Item>
+          <Card className="w-100 bg-primary">
+            <Card.Img fluid variant="top" src={lightstory} />
+            <Card.Body style={{ color: 'lightgray' }}>
+              <Card.Title>LightStory Photography</Card.Title>
+              <Card.Text>
+                A photography portfolio website built with react to showcase my work and providing services information.
+                {'\n'}
+                -use react for UI and react slick carousel for displaying images
+                {'\n'}
+                -use React Bootstrap for styling as well as React icons
+                {'\n'}
+                -use frame motion and react-intersection-observer for animation on scroll.
+                {'\n'}
+                eslint for creating cleaner and more consistant codes
+                {'\n'}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <div className="w-6 d-flex justify-content-center mt-2">
+            <Button href="https://lightstoryphotography.com.au" className="me-4" variant="primary">Demo</Button>
+            <Button href="https://github.com/huifang719/lightstory.git" variant="primary">Code</Button>
+          </div>
+        </Carousel.Item>
         <Carousel.Item>
           <Card className="w-100 bg-primary">
             <Card.Img fluid variant="top" src={jobtracker} />
