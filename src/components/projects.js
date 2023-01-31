@@ -56,7 +56,7 @@ function Projects() {
             </Card.Body>
           </Card>
           <div className="w-6 d-flex justify-content-center mt-2">
-            <Button href="https://jobtracker.fly.dev/" className="me-4" variant="primary">Demo</Button>
+            <Button href="https://jobtracker.onrender.com/" className="me-4" variant="primary">Demo</Button>
             <Button href="https://github.com/huifang719/jobtracker_server.git" variant="primary">Code</Button>
           </div>
         </Carousel.Item>
