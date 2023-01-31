@@ -21,15 +21,15 @@ function Projects() {
               <Card.Title>LightStory Photography</Card.Title>
               <Card.Text>
                 A photography portfolio website built with react to showcase my work and providing services information.
-                {'\n'}
+                <br />
                 -use react for UI and react slick carousel for displaying images
-                {'\n'}
+                <br />
                 -use React Bootstrap for styling as well as React icons
-                {'\n'}
+                <br />
                 -use frame motion and react-intersection-observer for animation on scroll.
-                {'\n'}
-                eslint for creating cleaner and more consistant codes
-                {'\n'}
+                <br />
+                -use eslint for creating cleaner and more consistant codes
+                <br />
               </Card.Text>
             </Card.Body>
           </Card>
@@ -45,15 +45,13 @@ function Projects() {
               <Card.Title>Job Tracker</Card.Title>
               <Card.Text>
                 A RESTful web app where user can login and search for jobs, as well as save jobs, adding important dates to their calender
-                {'\n'}
-                -integrate React JS for frontend with Express JS for backend
-                {'\n'}
-                -use PostgreSQL for database to store saved jobs and user detail
-                {'\n'}
+                <br />
+                -integrate React JS for frontend with Express JS for backend and use PostgreSQL for database
+                <br />
                 -use React Bootstrap for styling as well as React icons
-                {'\n'}
+                <br />
                 -use Adzuna api and Regex
-                {'\n'}
+                <br />
               </Card.Text>
             </Card.Body>
           </Card>
@@ -69,13 +67,13 @@ function Projects() {
               <Card.Title>Find Your Baker</Card.Title>
               <Card.Text>
                 A RESTful web app allows bakers to provide/update details and users to search bakers in nearby area as well as rating and reviewing bakers.
-                {'\n'}
+                <br />
                 -work collaboratively via Git and GitHub
-                {'\n'}
+                <br />
                 -CRUD system using Express JS and PostgreSQL
-                {'\n'}
+                <br />
                 -use React Bootstrap, Bing map API , Fontawesome
-                {'\n'}
+                <br />
               </Card.Text>
             </Card.Body>
           </Card>
@@ -91,13 +89,13 @@ function Projects() {
               <Card.Title>PhotoGuru</Card.Title>
               <Card.Text>
                 A CRUD web app built with sinatra to provide a community and learning experience for photographers.
-                {'\n'}
+                <br />
                 -using google YouTube data API
-                {'\n'}
+                <br />
                 -implement CRUD system in Ruby and PostgreSQL
-                {'\n'}
+                <br />
                 -use bootstrap for Styling
-                {'\n'}
+                <br />
               </Card.Text>
             </Card.Body>
           </Card>
@@ -113,13 +111,13 @@ function Projects() {
               <Card.Title>Tic Tac Toe</Card.Title>
               <Card.Text>
                 A classic game but with Game of Thrones theme
-                {'\n'}
-                -using React, and usestate hook
-                {'\n'}
-                -using React Bootstrap for Styling and React typewriter
-                {'\n'}
+                <br />
+                -using React,using React Bootstrap for Styling
+                <br />
                 -using Game of Throne Quote API
-                {'\n'}
+                <br />
+                -use eslint for creating cleaner and more consistant codes
+                <br />
               </Card.Text>
             </Card.Body>
           </Card>
