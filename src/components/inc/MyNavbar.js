@@ -14,7 +14,7 @@ function MyNavbar() {
   const [expanded, setExpanded] = useState(false);
   return (
     <IconContext.Provider value={{ color: 'lightgrey' }}>
-      <Navbar expanded={expanded} align="right" variant="dark" expand="lg">
+      <Navbar expanded={expanded} variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-6" as={Link} to="/">
             <motion.div
